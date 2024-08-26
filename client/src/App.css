@@ -1,0 +1,221 @@
+:root {
+  --int-primary-color: #232a3e;
+  --int-border-color-role: #5f06ff;
+
+  --int-role-hover: #dfd3f4;
+}
+
+/* #0b51b7 old blue color */
+
+.role_image {
+  height: 55px;
+  width: 55px;
+  object-fit: contain;
+}
+.roles_heading {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.role_text {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.selectroles_box {
+  margin-top: 5px;
+}
+
+.role_box {
+  border: 1px solid var(--int-border-color-role);
+  position: relative;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  color: var(--int-primary-color);
+  scale: 1;
+  transition: scale 0.5s ease-in-out;
+}
+
+.role_box:hover,
+.role_box.selected {
+  background-color: var(--int-role-hover);
+  border: 1px solid var(--int-role-hover);
+  scale: 1.01;
+  /* color: white; */
+}
+
+.roles_carousel_item {
+  min-height: 277px;
+}
+.role-check {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.role-check img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.ssearchbar_int {
+  position: absolute;
+  top: -44px;
+}
+
+@media (max-width: 768px) {
+  .blog_title_img_div {
+    height: 200px;
+  }
+  .role_image {
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+  }
+
+  .blogcards_row .ssearchbar_int {
+    position: static;
+    top: 0px;
+    display: block;
+    margin: 10px 0;
+  }
+
+  .ssearchbar_int_table {
+    display: block;
+  }
+
+  .role_text {
+    font-size: 15px;
+    font-weight: 400;
+  }
+}
+
+.logo-sidebar-text {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.query_mesg {
+  width: 250px;
+  text-overflow: ellipsis;
+  text-wrap: nowrap;
+  overflow: hidden;
+}
+
+.q_msg_label p {
+  color: inherit !important;
+}
+
+label {
+  font-weight: 500;
+}
+
+.selected_image img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
+.blog_content_box .ck-content {
+  min-height: 200px;
+}
+
+.blog_content_main img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.navbar-vertical .nav-link.active {
+  background-color: #e0e0ff;
+}
+
+.blog_title_img_div {
+  height: 280px;
+}
+
+.blog_title_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-header-int-primary {
+  background-color: var(--int-primary-color);
+  color: white;
+  padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
+  border-radius: calc(0.5rem - 1px) calc(0.5rem - 1px) 0 0;
+}
+
+.card-header-int-primary h5,
+.card-header-int-primary h1,
+.card-header-int-primary h2,
+.card-header-int-primary h3,
+.card-header-int-primary h4,
+.card-header-int-primary h6 {
+  color: white;
+}
+
+.number-input {
+  /* Hide spinner arrows */
+  -webkit-appearance: textfield;
+  /* Remove arrow buttons */
+  -moz-appearance: textfield;
+  appearance: textfield;
+  /* Prevent scrolling */
+  overflow: hidden;
+}
+
+/* Hide spinner arrows for WebKit browsers */
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Hide spinner arrows for Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Hide spinner arrows for Edge */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.week_img {
+  width: 100%;
+}
+.blog_card_img {
+  width: 100%;
+  height: 224px;
+  object-fit: cover;
+}
+
+.form-select-image {
+  max-width: 100%;
+  max-height: 150px;
+  object-fit: contain;
+}
+.blog_related_main .ssearchbar_int {
+  position: absolute;
+  top: 0px;
+}
+
+.selectedblog_badge {
+  border-radius: 5px;
+  padding: 2px 10px;
+  background-color: #cccfff;
+}
+
+.patient-details {
+  font-size: 16px;
+}
+
+.details-detail p {
+  color: black !important;
+}
